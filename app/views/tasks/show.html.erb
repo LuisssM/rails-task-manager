@@ -1,0 +1,7 @@
+<h3><%= @task.title %></h3>
+<h6><%= @task.details %></h6>
+<% if @task.completed %>
+  <h1>we did it</h1>
+<% else %>
+  <h1>you loose it</h1>
+<% end %>
